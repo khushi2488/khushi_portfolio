@@ -21,6 +21,8 @@ import {
   shopify,
   carrent,
   jobit,
+  medigenius,
+  realestate,
   tripguide,
   threejs,
   python,
@@ -124,7 +126,7 @@ const experiences = [
   {
     title: "Research Intern",
     company_name: "Indian Space Research Organisation (ISRO)",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "Jan 2025 - Apr 2025",
     points: [
@@ -135,8 +137,8 @@ const experiences = [
   },
   {
     title: "Data Analysis Intern",
-    company_name: "Grownite Pvt. Ltd.",
-    icon: starbucks,
+    company_name: "Grownited Pvt. Ltd.",
+    icon: backend,
     iconBg: "#383E56",
     date: "Jun 2024 - Jul 2024",
     points: [
@@ -145,13 +147,7 @@ const experiences = [
       "Created reports that influenced internal strategy and product design decisions.",
     ],
   },
-];
-
-// const testimonials = [
-//   {
-//     testimonial:
-//       "Khushi's backend work on our Copy Trading platform was instrumental in getting our MVP to production.",
-//     name: "Sagar Mehta",
+]
 //     designation: "Tech Lead",
 //     company: "Nodeprix",
 //     image: "https://randomuser.me/api/portraits/men/31.jpg",
@@ -177,7 +173,7 @@ const projects = [
       { name: "deep-learning", color: "pink-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/khushi2488/email-classifier-pii-masking",
+    source_code_link: "https://github.com/khushi2488/Email_classifier_with_pii_masking/tree/master",
   },
   {
     name: "WhatsApp Chat Analyzer",
@@ -189,7 +185,7 @@ const projects = [
       { name: "matplotlib", color: "pink-text-gradient" },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/khushi2488/whatsapp-chat-analyzer",
+    source_code_link: "https://github.com/khushi2488/Whatsapp_Chat_Analyzer_project",
   },
   {
     name: "GreatKart E-Commerce Platform",
@@ -201,8 +197,33 @@ const projects = [
       { name: "restapi", color: "pink-text-gradient" },
     ],
     image: carrent,
-    source_code_link: "https://github.com/khushi2488/greatkart-ecommerce",
+    source_code_link: "https://github.com/khushi2488/Django-Project",
   },
+   {
+  name: "MediGenius – Medicine Recommendation System",
+  description:
+    "Engineered a symptom-based medical diagnosis system using Python, Flask, and machine learning models with 90% accuracy in disease prediction. Integrated voice input, Bootstrap, and JavaScript to create a user-friendly interface that improved engagement by 40%.",
+  tags: [
+    { name: "flask", color: "blue-text-gradient" },
+    { name: "machine-learning", color: "green-text-gradient" },
+    { name: "javascript", color: "pink-text-gradient" },
+  ],
+  image: carrent, // Define this image variable in your assets
+  source_code_link: "https://github.com/khushi2488/Medicine-Recommendation-System",
+},
+{
+  name: "Real Estate Home Rental Website",
+  description:
+    "Built a full-stack MERN-based home rental platform with advanced search filters, secure user auth, and CRUD operations. Achieved 20% faster query response by implementing optimized MongoDB indexing and dynamic React components for intuitive user experience.",
+  tags: [
+    { name: "mern", color: "blue-text-gradient" },
+    { name: "reactjs", color: "green-text-gradient" },
+    { name: "mongodb", color: "pink-text-gradient" },
+  ],
+  image: carrent, // Define this image variable in your assets
+  source_code_link: "https://github.com/khushi2488/Homerentalweb",
+}
+
 ];
 
 export { services, technologies, experiences,projects };

@@ -19,12 +19,12 @@ const Hero = () => {
     Hey there! I’m <span className='text-[#915EFF]'>Khushi Patel</span>
   </h1>
   <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-    I craft clean code, smooth interfaces, and cool digital experiences. <br className='sm:block hidden' />
-    Sometimes I debug like a ninja, sometimes I just vibe with coffee and code.
-  </p>
+  I code with purpose, design with empathy, and debug like it’s an art form. <br className='sm:block hidden' />
+  Building human-centered tech — one clever feature at a time.
+</p>
 </div>
 
-      </div>
+</div>
  <div className='absolute h-[600px] w-full flex justify-center items-end bottom-0 left-0 right-0'>
   <ComputersCanvas />
 </div>
